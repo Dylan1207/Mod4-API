@@ -1,3 +1,7 @@
+app.get("/", (req, res) => {
+  res.send("Book Tracker API is running");
+});
+
 const express = require("express");
 const { Pool } = require("pg");
 require("dotenv").config();
